@@ -2,4 +2,6 @@
 title: "About Me"
 ---
 
-Why I am awesome. 
+- __Name:__ Karthik Ram Padmanabhan   
+- __Ocupation:__ Staff Scientist, Bioinformatics
+- __Hobbies:__ Biking, Running, Watching football (soccer), Playing XBox
