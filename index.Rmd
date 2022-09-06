@@ -2,4 +2,6 @@
 title: "Karthik R Padmanabhan"
 ---
 
+![](images/profilepic.png)
+
 Bioinformatics Scientist with significant experience in various Bioinformatics and Epigenomics analyses such as SNP calling, CNV detection, RNA-Seq, Bisulfite Sequencing (ERRBS and Whole Genome), ChIP-Seq, (h)MeDIP-Seq, ATAC-Seq (bulk and single cell) and Illumina Methylation Array in customer-facing roles, and preliminary exposure to machine learning methods. Experienced in cloud-based software development using JavaScript and RShiny. Also skilled in pipeline development methods (Snakemake, ClusterFlow), and scripting languages (Python/R/Perl). Strong bioinformatic training with a Master's degree from Indiana University and a PhD from Purdue University.
