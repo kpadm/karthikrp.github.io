@@ -1,13 +1,10 @@
 name: "karthikrp.github.io"
 output_dir: "."
-navbar:
-  title: "Personal Website"
-  left:
-    - text: "Home"
-      href: index.html
-    - text: "About Me"
-      href: about.html
 output:
   html_document:
-    theme: readable
+    includes:
+      in_header: "favicon.html"
+    theme: united
     css: style.css
+    toc: true
+    toc_float: true

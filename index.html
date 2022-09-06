@@ -11,12 +11,12 @@
 
 
 
-<title>Karthik R Padmanabhan</title>
+<title>Karthik Ram Padmanabhan</title>
 
 <script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -29,9 +29,13 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="images/favicon.png">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -92,80 +96,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -227,6 +157,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -236,57 +229,219 @@ $(document).ready(function () {
 <div class="container-fluid main-container">
 
 
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Personal Website</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="about.html">About Me</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+
 
 <div id="header">
 
 
 
-<h1 class="title toc-ignore">Karthik R Padmanabhan</h1>
+<h1 class="title toc-ignore">Karthik Ram Padmanabhan</h1>
 
 </div>
 
 
-<p><img src="images/profilepic.png" /></p>
-<p>Bioinformatics Scientist with significant experience in various
-Bioinformatics and Epigenomics analyses such as SNP calling, CNV
-detection, RNA-Seq, Bisulfite Sequencing (ERRBS and Whole Genome),
-ChIP-Seq, (h)MeDIP-Seq, ATAC-Seq (bulk and single cell) and Illumina
-Methylation Array in customer-facing roles, and preliminary exposure to
-machine learning methods. Experienced in cloud-based software
-development using JavaScript and RShiny. Also skilled in pipeline
-development methods (Snakemake, ClusterFlow), and scripting languages
-(Python/R/Perl). Strong bioinformatic training with a Master’s degree
-from Indiana University and a PhD from Purdue University.</p>
+<p><img src="images/dna.jpg" /></p>
+<div id="about" class="section level1">
+<h1>About</h1>
+<ul>
+<li>Bioinformatics Analyst with significant experience in various
+Bioinformatics analyses and high-performance computing environments</li>
+<li>Skilled in pipeline development methods and scripting languages
+(Python/R/Perl) using Agile software principles and containerization for
+software reproducibility</li>
+<li>Responsible for project management of customer-facing projects with
+a strong focus on setting and achieving deadlines</li>
+<li>Demonstrated ability to respond positively to change and willingness
+to adapt and face new challenges</li>
+</ul>
+</div>
+<div id="bioinformatics-experience" class="section level1">
+<h1>Bioinformatics Experience</h1>
+<div id="staff-scientist-bioinformatics-at-takara-bio-usa-san-jose-ca"
+class="section level3">
+<h3>Staff Scientist, Bioinformatics at Takara Bio USA, San Jose CA</h3>
+<ul>
+<li><strong>Duration:</strong> January 2021 to present</li>
+<li>Worked on algorithm and UI development for Embgenix PGT-A software
+for aneuploidy detection in embryos (<a
+href="https://www.takarabio.com/products/next-generation-sequencing/reproductive-health/embgenix-pgt-a-kit-(ruo)"
+class="uri">https://www.takarabio.com/products/next-generation-sequencing/reproductive-health/embgenix-pgt-a-kit-(ruo)</a>)</li>
+<li>Collaborated with bench scientists to address bioinformatics needs
+in DNA-Seq, particularly in reproductive health</li>
+<li>Developed and maintained pipelines and software products to aid
+design of new products in R&amp;D using Python, Shiny and
+JavaScript</li>
+<li>Performed DNA-Seq analysis, particularly to aid in detection of copy
+number variations</li>
+</ul>
+</div>
+<div
+id="bioinformaticiancomputational-biologist-at-michigan-medicine-ann-arbor-mi"
+class="section level3">
+<h3>Bioinformatician/Computational Biologist at Michigan Medicine, Ann
+Arbor MI</h3>
+<ul>
+<li><strong>Duration:</strong> September 2016 to January 2021</li>
+<li>Performed analysis on NGS and array data from ERRBS, ChIP-seq, WGBS,
+ATAC-Seq (bulk and single cell), EPIC Methylation Array and (h)MeDIP DNA
+methylation techniques</li>
+<li>Maintained, developed and documented Epigenomic NGS data analysis
+pipelines using Snakemake, R, Python, Bash, Perl and other open-source
+bioinformatics programs (sequence quality control, alignment,
+differential analysis)</li>
+<li>Developed analysis plans and budgets for scientists and communicated
+results to non-expert audiences effectively</li>
+<li>Analyzed and interpreted bioinformatics, clinical, and physiological
+data across multiple data types and sources, and across a broad range of
+analysis approaches and biological and clinical research questions</li>
+</ul>
+</div>
+<div id="bioinformatics-research-assistant-at-purdue-university"
+class="section level3">
+<h3>Bioinformatics Research Assistant at Purdue University</h3>
+<ul>
+<li><strong>Duration:</strong> August 2012 to July 2016</li>
+<li>Developed a novel method for scoring gene models for non-model
+plants</li>
+<li>Performed domain co-occurrence analysis for identifying the pairwise
+probability of kinase protein domains</li>
+<li>Analyzed RNA-seq data of glyphosate resistant giant ragweed in time
+course experiments to identify genes responsible for resistance
+mechanism</li>
+</ul>
+</div>
+<div
+id="data-science-intern-at-monsanto-later-acquired-by-bayer-cropsciences"
+class="section level3">
+<h3>Data Science Intern at Monsanto (later acquired by Bayer
+CropSciences)</h3>
+<ul>
+<li><strong>Duration:</strong> May 2015 to August 2015</li>
+<li>Investigated the effect of metabolites and genes on selected
+yield-related phenotypes in corn using machine learning algorithms and
+feature selection methods and generated a list of most predictive
+features affecting the yield of corn</li>
+<li>Collaborated with multi-state teams within the company to design and
+develop web applications in R Shiny</li>
+<li>Communicated results effectively with non-specialist scientists from
+other teams</li>
+</ul>
+</div>
+</div>
+<div id="education" class="section level1">
+<h1>Education</h1>
+<div
+id="ph.d.-computational-biology-purdue-university-west-lafayette-in"
+class="section level3">
+<h3>Ph.D. Computational Biology, Purdue University, West Lafayette,
+IN</h3>
+<ul>
+<li>Completed: July 2016</li>
+<li>Advisor: Prof. Michael Gribskov</li>
+<li>Thesis: “Understanding plant response to stress using gene model
+quality evaluation and transcriptome analysis”</li>
+</ul>
+</div>
+<div id="m.s.-bioinformatics-indiana-university-bloomington-in"
+class="section level3">
+<h3>M.S. Bioinformatics, Indiana University, Bloomington, IN</h3>
+<ul>
+<li>Completed: June 2011</li>
+<li>Advisor: Dr. Sun Kim</li>
+<li>Thesis: “Comparative expression analysis of two drug-resistant
+breast cancer cell lines”</li>
+</ul>
+</div>
+<div
+id="b.tech.-industrial-biotechnology-sastra-university-tamil-nadu-india"
+class="section level3">
+<h3>B.Tech. Industrial Biotechnology, SASTRA University, Tamil Nadu,
+India</h3>
+<ul>
+<li>Completed: May 2009</li>
+</ul>
+</div>
+</div>
+<div id="technical-skills" class="section level1">
+<h1>Technical Skills</h1>
+<ul>
+<li><strong>Programming:</strong> R, Perl, Python, R Shiny, Bash shell
+scripting, containerization (singularity/docker) for
+reproducibility</li>
+<li><strong>Bioinformatics and Genomics:</strong> Various tools used in
+NGS data analysis ranging from sequence quality measurements to
+differential expression and methylation analyses, pipeline development
+tools (Snakemake)</li>
+<li><strong>Applied Statistics:</strong> Machine learning and feature
+selection (Random forests, Genetic Algorithms, Support Vector Machines,
+O-PLS), multivariate data analysis, data visualization, probability and
+statistical inference</li>
+<li><strong>Web Development:</strong> HTML, PHP, REST, Zope, Joomla,
+Wordpress</li>
+<li><strong>Miscellaneous:</strong> Unix/Mac OS/Windows, vim/nano/MS
+Office/Latex, version control systems (CVS, git)</li>
+</ul>
+</div>
+<div id="other-minor-projects" class="section level1">
+<h1>Other Minor Projects</h1>
+<div id="zebrafish-db" class="section level3">
+<h3>Zebrafish DB</h3>
+<ul>
+<li>Built a database for maintaining zebrafish lines using RShiny for a
+lab in UCSF</li>
+<li>Updates status of fish such as birth date, mother, father,
+generation, etc. to a local SQL database</li>
+<li>Added function to print label via connected label printer for use
+with fish tanks in facility</li>
+</ul>
+</div>
+<div id="rfevip" class="section level3">
+<h3><a href="https://github.com/kpadm/rfeVIP">rfeVIP</a></h3>
+<ul>
+<li>Developed an R package that performs recursive feature elimination
+based on the variable importance parameter in random forest models using
+caret</li>
+<li>Removes negative VIPs and stops when all remaining VIPs are
+positive</li>
+</ul>
+</div>
+<div id="web-developer" class="section level3">
+<h3>Web Developer</h3>
+<ul>
+<li>Maintained and updated content for the Department of Environmental
+and Ecological Engineering at Purdue University</li>
+<li>Overhauled back-end infrastructure to be more robust</li>
+<li>Updated front-end UI to meet University guidelines</li>
+<li>Held weekly meetings with the department head and administrative
+director</li>
+</ul>
+</div>
+</div>
+<div id="contact" class="section level1">
+<h1>Contact</h1>
+<ul>
+<li>Email: karthikrpad (at) gmail (dot) com</li>
+<li>Twitter: <a
+href="https://twitter.com/karthographer">karthographer</a></li>
+<li>LinkedIn - <a href="https://www.linkedin.com/in/padmanak">Karthik
+Padmanabhan</a></li>
+</ul>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -319,6 +474,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

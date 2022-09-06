@@ -1,7 +1,89 @@
 ---
-title: "Karthik R Padmanabhan"
+title: "Karthik Ram Padmanabhan"
 ---
 
-![](images/profilepic.png)
+![](images/dna.jpg)
 
-Bioinformatics Scientist with significant experience in various Bioinformatics and Epigenomics analyses such as SNP calling, CNV detection, RNA-Seq, Bisulfite Sequencing (ERRBS and Whole Genome), ChIP-Seq, (h)MeDIP-Seq, ATAC-Seq (bulk and single cell) and Illumina Methylation Array in customer-facing roles, and preliminary exposure to machine learning methods. Experienced in cloud-based software development using JavaScript and RShiny. Also skilled in pipeline development methods (Snakemake, ClusterFlow), and scripting languages (Python/R/Perl). Strong bioinformatic training with a Master's degree from Indiana University and a PhD from Purdue University.
+# About 
+
+- Bioinformatics Analyst with significant experience in various Bioinformatics analyses and high-performance computing environments
+- Skilled in pipeline development methods and scripting languages (Python/R/Perl) using Agile software principles and containerization for software reproducibility
+- Responsible for project management of customer-facing projects with a strong focus on setting and achieving deadlines
+- Demonstrated ability to respond positively to change and willingness to adapt and face new challenges
+
+# Bioinformatics Experience
+
+### Staff Scientist, Bioinformatics at Takara Bio USA, San Jose CA
+- **Duration:** January 2021 to present
+- Worked on algorithm and UI development for Embgenix PGT-A software for aneuploidy detection in embryos (https://www.takarabio.com/products/next-generation-sequencing/reproductive-health/embgenix-pgt-a-kit-(ruo)) 
+- Collaborated with bench scientists to address bioinformatics needs in DNA-Seq, particularly in reproductive health
+- Developed and maintained pipelines and software products to aid design of new products in R&D using Python, Shiny and JavaScript
+- Performed DNA-Seq analysis, particularly to aid in detection of copy number variations
+
+### Bioinformatician/Computational Biologist at Michigan Medicine, Ann Arbor MI
+- **Duration:** September 2016 to January 2021
+- Performed analysis on NGS and array data from ERRBS, ChIP-seq, WGBS, ATAC-Seq (bulk and single cell), EPIC Methylation Array and (h)MeDIP DNA methylation techniques
+- Maintained, developed and documented Epigenomic NGS data analysis pipelines using Snakemake, R, Python, Bash, Perl and other open-source bioinformatics programs (sequence quality control, alignment, differential analysis)
+- Developed analysis plans and budgets for scientists and communicated results to non-expert audiences effectively
+- Analyzed and interpreted bioinformatics, clinical, and physiological data across multiple data types and sources, and across a broad range of analysis approaches and biological and clinical research questions
+
+### Bioinformatics Research Assistant at Purdue University 
+- **Duration:** August 2012 to July 2016
+- Developed a novel method for scoring gene models for non-model plants
+- Performed domain co-occurrence analysis for identifying the pairwise probability of kinase protein domains
+- Analyzed RNA-seq data of glyphosate resistant giant ragweed in time course experiments to identify genes responsible for resistance mechanism
+
+### Data Science Intern at Monsanto (later acquired by Bayer CropSciences)
+- **Duration:** May 2015 to August 2015
+- Investigated the effect of metabolites and genes on selected yield-related phenotypes in corn using machine learning algorithms and feature selection methods and generated a list of most predictive features affecting the yield of corn
+- Collaborated with multi-state teams within the company to design and develop web applications in R Shiny
+- Communicated results effectively with non-specialist scientists from other teams
+
+# Education
+
+### Ph.D. Computational Biology, Purdue University, West Lafayette, IN 
+- Completed: July 2016 
+- Advisor: Prof. Michael Gribskov
+- Thesis: “Understanding plant response to stress using gene model quality evaluation and transcriptome analysis”
+
+### M.S. Bioinformatics, Indiana University, Bloomington, IN 
+- Completed: June 2011
+- Advisor: Dr. Sun Kim
+- Thesis: “Comparative expression analysis of two drug-resistant breast cancer cell lines” 
+
+### B.Tech. Industrial Biotechnology, SASTRA University, Tamil Nadu, India
+- Completed: May 2009
+
+# Technical Skills 
+
+- **Programming:** R, Perl, Python, R Shiny, Bash shell scripting, containerization (singularity/docker) for reproducibility
+- **Bioinformatics and Genomics:** Various tools used in NGS data analysis ranging from sequence quality measurements to differential expression and methylation analyses, pipeline development tools (Snakemake)
+- **Applied Statistics:** Machine learning and feature selection (Random forests, Genetic Algorithms, Support Vector Machines, O-PLS), multivariate data analysis, data visualization, probability and statistical inference
+- **Web Development:** HTML, PHP, REST, Zope, Joomla, Wordpress
+- **Miscellaneous:** Unix/Mac OS/Windows, vim/nano/MS Office/Latex, version control systems (CVS, git)
+
+# Other Minor Projects 
+
+### Zebrafish DB
+
+- Built a database for maintaining zebrafish lines using RShiny for a lab in UCSF
+- Updates status of fish such as birth date, mother, father, generation, etc. to a local SQL database 
+- Added function to print label via connected label printer for use with fish tanks in facility 
+
+### [rfeVIP](https://github.com/kpadm/rfeVIP)
+
+- Developed an R package that performs recursive feature elimination based on the variable importance parameter in random forest models using caret 
+- Removes negative VIPs and stops when all remaining VIPs are positive
+
+### Web Developer
+
+- Maintained and updated content for the Department of Environmental and Ecological Engineering at Purdue University 
+- Overhauled back-end infrastructure to be more robust
+- Updated front-end UI to meet University guidelines 
+- Held weekly meetings with the department head and administrative director
+
+# Contact
+
+- Email: karthikrpad (at) gmail (dot) com
+- Twitter: [karthographer](https://twitter.com/karthographer)
+- LinkedIn: [Karthik Padmanabhan](https://www.linkedin.com/in/padmanak)
