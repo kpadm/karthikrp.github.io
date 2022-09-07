@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  7 SEP 2022 11:31
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  7 SEP 2022 11:58
  restricted system commands enabled.
  file:line:error style messages enabled.
 **KRPadmanabhan_Resume.tex
@@ -36,7 +36,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.168 seconds
+luaotfload | main : initialization completed in 0.129 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2015/07/28 v2.0.0 modern curriculum vitae and letter do
@@ -1353,22 +1353,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./KRPadmanabhan_Resume.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
-Package rerunfilecheck Info: File `KRPadmanabhan_Resume.out' has not changed.
-(rerunfilecheck)             Checksum: FF0181973AD58F62023F55B51BF9C943;1093.
 
+
+Package rerunfilecheck Warning: File `KRPadmanabhan_Resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `KRPadmanabhan_Resume.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  FF0181973AD58F62023F55B51BF9C943;1093.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 23574 strings out of 494413
+ 23565 strings out of 494413
  100000,662416 words of node,token memory allocated
  563 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 84 glue_spec, 4 attribute_list
 , 1 write nodes
-   avail lists: 1:1,2:916,3:145,4:60,5:272,6:41,7:4776,8:101,9:299,10:5,11:426
- 27106 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:918,3:145,4:60,5:272,6:41,7:4776,8:101,9:299,10:5,11:426
+ 27097 multiletter control sequences out of 65536+600000
  59 fonts using 8864487 bytes
  57i,12n,63p,785b,391s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local
@@ -1378,10 +1384,10 @@ cal/texlive/2018/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf></
 usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf>
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on KRPadmanabhan_Resume.pdf (2 pages, 59501 bytes).
+Output written on KRPadmanabhan_Resume.pdf (2 pages, 58960 bytes).
 
-PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+PDF statistics: 69 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
