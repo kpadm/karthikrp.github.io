@@ -62,9 +62,9 @@ title: "Karthik Ram Padmanabhan"
 - **Web Development:** HTML, PHP, REST, Zope, Joomla, Wordpress
 - **Miscellaneous:** Unix/Mac OS/Windows, vim/nano/MS Office/Latex, version control systems (CVS, git)
 
-# Current Resume
+# Current Résumé
 
-[Click here](resume/KRPadmanabhan_Resume.pdf) for a PDF copy of my latest resume 
+[Click here](resume/KRPadmanabhan_Resume.pdf) for a PDF copy of my latest résumé 
 
 # Other Minor Projects 
 
