@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  7 SEP 2022 09:35
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  7 SEP 2022 11:31
  restricted system commands enabled.
  file:line:error style messages enabled.
 **KRPadmanabhan_Resume.tex
@@ -36,7 +36,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.183 seconds
+luaotfload | main : initialization completed in 0.168 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2015/07/28 v2.0.0 modern curriculum vitae and letter do
@@ -1378,7 +1378,7 @@ cal/texlive/2018/texmf-dist/fonts/opentype/public/fontawesome/FontAwesome.otf></
 usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf>
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on KRPadmanabhan_Resume.pdf (2 pages, 59516 bytes).
+Output written on KRPadmanabhan_Resume.pdf (2 pages, 59501 bytes).
 
 PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
