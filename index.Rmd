@@ -7,7 +7,7 @@ title: "Karthik Ram Padmanabhan"
 # About 
 
 - Bioinformatics Analyst with significant experience in various Bioinformatics analyses and high-performance computing environments
-- Skilled in pipeline development methods and scripting languages (Python/R/Perl) using Agile software principles and containerization for software reproducibility
+- Skilled in pipeline development methods (Nextflow/Snakemake) and scripting languages (Python/R/Perl) using Agile software principles and containerization for software reproducibility
 - Responsible for project management of customer-facing projects with a strong focus on setting and achieving deadlines
 - Demonstrated ability to respond positively to change and willingness to adapt and face new challenges
 
