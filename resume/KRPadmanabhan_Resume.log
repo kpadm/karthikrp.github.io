@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.11.27)  27 NOV 2023 20:09
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.11.27)  27 NOV 2023 20:26
  restricted system commands enabled.
  file:line:error style messages enabled.
 **KRPadmanabhan_Resume.tex
@@ -1195,12 +1195,12 @@ Package rerunfilecheck Info: File `KRPadmanabhan_Resume.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  31033 strings out of 478285
- 156557,1977958 words of node,token memory allocated
+ 195705,1977958 words of node,token memory allocated
  668 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 99 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 1:4,2:1605,3:459,4:193,5:678,6:109,7:16055,8:1,9:1890,10:5,11:12
-56
+   avail lists: 1:3,2:1626,3:465,4:197,5:709,6:109,7:16645,8:1,9:1896,10:20,11:1
+308
  50050 multiletter control sequences out of 65536+600000
  59 fonts using 4994055 bytes
  129i,11n,116p,1016b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1212,7 +1212,7 @@ egular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10
 -bold.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
 i10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb>
-Output written on KRPadmanabhan_Resume.pdf (2 pages, 71278 bytes).
+Output written on KRPadmanabhan_Resume.pdf (2 pages, 71968 bytes).
 
 PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
