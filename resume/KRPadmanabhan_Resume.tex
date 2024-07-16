@@ -33,7 +33,7 @@
 \usepackage{import}
 
 % personal data
-\name{Karthik}{Ram Padmanabhan, Ph.D.}
+\name{Karthik Ramaswamy}{Padmanabhan}
 % \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
 \address{San Francisco, CA 94131 }{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 % \phone[mobile]{909-839-3097}                   % optional, remove / comment the line if not wanted
@@ -107,7 +107,7 @@
 
 \begin{center}
 \begin{tabular}{ c c c c }
- \faEnvelopeO\enspace \href{mailto:karthikrpad@gmail.com}{karthikrpad@gmail.com} & \faMobile\enspace 812-325-0180 & \faGlobe\enspace \href{https://www.karthikrp.com}{karthikrp.com} & \faLinkedin\enspace\href{https://www.linkedin.com/in/karthikrpad}{karthikrpad}\\  
+ \faEnvelopeO\enspace \href{mailto:karthik.rmswmy@gmail.com}{karthik.rmswmy@gmail.com} & \faMobile\enspace 812-325-0180 & \faGlobe\enspace \href{https://www.karthikrp.com}{karthikrp.com} & \faLinkedin\enspace\href{https://www.linkedin.com/in/karthikrpad}{karthikrpad}\\  
 \end{tabular}
 \end{center}
 
@@ -115,46 +115,59 @@
 {-  Bioinformatics Analyst with 10+ years of hands-on experience in development of next-gen sequencing pipelines \\
 - Expert in analysis of high-throughput sequencing data, highly collaborative with excellent communication skills}
 
-\section{TECHNICAL SKILLS}
-
-% {\customcvproject{Software/Tools}{}
-% {- Unix OS, R Bioconductor, RStudio, AWS, bioinformatics tools used in downstream analysis (QC, trimming, alignment, peak-calling, variant calling, sequence annotation, etc.), pathway/regulatory network analysis (iPathwayGuide), visualization (Cytoscape, R Shiny), Machine learning and feature selection (Random forests, Genetic Algorithms, Support Vector Machines), \LaTeX
-%   }
-% }
-{\customcvproject{Biological Data Analysis}{}
-{- bulk and scDNA-Seq (CNV and SNV calling, Bisulfite Sequencing, ChIP-Seq, (h)MeDIP-Seq, ATAC-Seq)\\
-- bulk and scRNA-Seq (Expression profiling, de novo transcriptome assembly)}
-}
-
-{\customcvproject{Languages/Software Development}{}
-{- R, Python, Perl, Nextflow, AWS, R Shiny, Snakemake, Docker, Singularity, JavaScript, version control (CVS, git), Jupyter Notebook, SDLC best practices\\
-- Machine learning and feature selection (Random forests, Genetic Algorithms, Support Vector Machines), \LaTeX}
-}
+%\section{TECHNICAL SKILLS}
+%
+%% {\customcvproject{Software/Tools}{}
+%% {- Unix OS, R Bioconductor, RStudio, AWS, bioinformatics tools used in downstream analysis (QC, trimming, alignment, peak-calling, variant calling, sequence annotation, etc.), pathway/regulatory network analysis (iPathwayGuide), visualization (Cytoscape, R Shiny), Machine learning and feature selection (Random forests, Genetic Algorithms, Support Vector Machines), \LaTeX
+%%   }
+%% }
+%{\customcvproject{Biological Data Analysis}{}
+%{- bulk and scDNA-Seq (CNV and SNV calling, Bisulfite Sequencing, ChIP-Seq, (h)MeDIP-Seq, ATAC-Seq)\\
+%- bulk and scRNA-Seq (Expression profiling, \textit{de novo} transcriptome assembly)}
+%}
+%%
+%{\customcvproject{Bioinformatics Engineering}{}
+%{- Python, R, Perl, Nextflow, Snakemake, AWS, R Shiny, Docker, Singularity, JavaScript, version control (CVS, git), Jupyter Notebook, SDLC best practices\\
+%- Machine learning and feature selection (Random forests, Genetic Algorithms, Support Vector Machines)}
+%}
 
 % {\customcvproject{Databases}{}
 % {- UCSC Genome Browser, NCBI, KEGG, Reactome, GEO, SRA, ENCODE, Gene Ontology, TCGA}
 % }
 
+\section{TECHNICAL SKILLS}
+\begin{minipage}{\maincolumnwidth}%
+	\small{
+	\textbf{Biological Data Analysis:}  CNV and SNV calling, Bisulfite Sequencing, ChIP-Seq, (h)MeDIP-Seq, ATAC-Seq, bulk and single cell RNA-Seq\\
+	\textbf{Languages:} Python, R, Perl, R Shiny\\
+	\textbf{Developer Tools:} Git, Docker,  Singularity, VS Code, AWS, Jupyter Notebook\\
+	\textbf{Pipelining Frameworks:} Nextflow, Snakemake}%
+\end{minipage}%
+
 \section{BIOINFORMATICS EXPERIENCE}
 
-{\customcventry{San Jose, CA}{Takara Bio USA}{Staff Scientist, Bioinformatics}{Jan 2021- present}{}
+{\customcventry{San Jose, CA}{Takara Bio USA}{Senior Staff Engineer, Bioinformatics}{Apr 2024 - present}{}
 {- Led the development and maintenance of Cogent suite of data analysis pipelines for DNA/RNA-Seq data using Nextflow\\ 
-- Worked on algorithm and UI development for Embgenix PGT-A software for aneuploidy detection (low pass sequencing CNV detection) in embryos\\ 
+- Developed and maintained pipelines and software to aid design of new products in R\&D using Python, Docker, Shiny and JavaScript
+}
+
+
+{\customcventry{San Jose, CA}{Takara Bio USA}{Staff Scientist, Bioinformatics}{Jan 2021 - Feb 2024}{}
+{- Worked on algorithm and UI development for Embgenix PGT-A software for aneuploidy detection (low pass sequencing CNV detection) in embryos\\ 
 - Collaborated with bench scientists to address bioinformatics needs in DNA-Seq, particularly in reproductive health
-%- Developed and maintained pipelines and software to aid design of new products in R\&D using Python, Shiny and JavaScript
 }
 
 {\customcventry{Ann Arbor, MI}{University of Michigan}{Bioinformatician/Computational Biologist}{Sep 2016 - Jan 2021}{}
 {- Developed, tested and maintained bioinformatics pipelines using Snakemake, R, Python, and open-source bioinformatics tools\\
   - Worked with scientists to develop analysis plans and budgets for bioinformatics/epigenomics research groups\\
   - Applied computational and statistical tools to interpret results from high dimensional genomics experiments derived from high-throughput sequencing (ChIP-Seq, ERRBS/WGBS, bulk/single-cell ATAC-Seq, RNA-Seq, Exome-Seq)\\
-  - Organized pre- and post-analysis consultations, generated detailed analysis reports and interpreted results effectively to non-expert audience
+  - Organized pre- and post-analysis consultations, generated detailed analysis reports and interpreted results effectively to non-expert audiences
 }
 }
 
 {\customcventry{West Lafayette, IN}{Purdue University}{Research Assistant}{Aug 2012 - Jul 2016}{}
-{- Analyzed NGS data (\textit{de novo} transciptome analysis) from giant ragweed to identify genes responsible for disease resistance\\
-  - Performed domain co-occurrence analysis using statistical models for identifying the pairwise probability of protein domains}
+{- Analyzed NGS data (\textit{de novo} transcriptome analysis) from giant ragweed to identify genes responsible for disease resistance\\
+  - Performed domain co-occurrence analysis using statistical models for identifying the pairwise probability of protein domains to understand early land plant evolution}
 }
 
 {\customcventry{Chesterfield, MO}{Monsanto}{Data Science Intern}{May 2015 - Aug 2015}{}
@@ -211,6 +224,7 @@
 \section{OUTREACH AND LEADERSHIP}
 \begin{minipage}{\maincolumnwidth}%
 	\small{
+	 - Volunteer Reviewer, PeerJ, 2024 - present\\
 	 - Associate Editor, Journal of Emerging Investigators, 2024 - present\\
           - Assistant Program Coordinator, LSAMP Summer Undergraduate Research Program, 2016\\
           - President/Treasurer/Webmaster, Biological Graduate Student Council, Purdue University, 2012-15\\
