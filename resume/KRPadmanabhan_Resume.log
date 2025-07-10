@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.11.27)  24 APR 2025 14:06
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.11.27)  10 JUL 2025 14:25
  restricted system commands enabled.
  file:line:error style messages enabled.
 **KRPadmanabhan_Resume.tex
@@ -1003,21 +1003,21 @@ ndard glyph set (RS)
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <14.4> not available
 (Font)              Font shape `TU/lmss/bx/n' tried instead on input line 114.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 141.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 146.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 152.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 157.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 152.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 157.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 170.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 174.
 
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 187.
+(Font)              <7> on input line 190.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 187.
+(Font)              <5> on input line 190.
 
 [2] (./KRPadmanabhan_Resume.aux)
 
@@ -1026,19 +1026,20 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package rerunfilecheck Info: File `KRPadmanabhan_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: CC3A81179E56707767A1A51EDF7D6C0E;1093.
 )
-(\end occurred inside a group at level 1)
+(\end occurred inside a group at level 2)
 
-### simple group (level 1) entered at line 149 ({)
+### simple group (level 2) entered at line 160 ({)
+### simple group (level 1) entered at line 154 ({)
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
  27571 strings out of 478285
- 156557,1977958 words of node,token memory allocated
- 608 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 87 glue_spec,
+ 125240,1977958 words of node,token memory allocated
+ 618 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 89 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 1:3,2:1470,3:434,4:147,5:586,6:106,7:13311,8:1,9:1848,10:5,11:10
-14
+   avail lists: 1:1,2:1464,3:425,4:135,5:584,6:106,7:12426,8:1,9:1845,10:5,11:10
+08
  46690 multiletter control sequences out of 65536+600000
  50 fonts using 3909279 bytes
  129i,12n,116p,1016b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1050,7 +1051,7 @@ ublic/fontawesome5/FontAwesome5Free-Solid-900.otf></usr/local/texlive/2023/texmf
 mf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/local/texlive/2023/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on KRPadmanabhan_Resume.pdf (2 pages, 71362 bytes).
+Output written on KRPadmanabhan_Resume.pdf (2 pages, 71637 bytes).
 
 PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
